@@ -1,0 +1,29 @@
+.piece{
+  border: 1px solid black;
+  height: 10vh;
+  cursor: move;
+  
+}
+
+.main {
+  text-align: center;
+  color: rgb(0, 106, 255);
+}
+
+.img {
+  width: 118px;
+  height: 118px;
+  border: 1px solid  rgb(0, 106, 255);
+}
+
+.board{
+  width: 360px;
+  height: 360px;  
+  background-color: rgb(13, 133, 238);
+  border: 10PX solid rgb(0, 106, 255);
+
+  margin: 0 auto;
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
